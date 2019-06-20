@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int myain(void)
+int main(void)
 {
 	int n;
 
