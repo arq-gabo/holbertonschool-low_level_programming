@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Entry Point
  *
@@ -25,6 +24,5 @@ int myain(void)
 	{
 		printf("%d is zero\n", n);
 	}
-
 	return (0);
 }
