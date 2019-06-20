@@ -1,4 +1,6 @@
-q#include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry Point
  *
@@ -10,7 +12,14 @@ int main(void)
 
 	for (n = 97; n <= 122; n++)
 	{
-		putchar(n);
+		if (n == 101 || n == 113)
+		{
+
+		}
+		else
+		{
+			putchar(n)
+		}
 	}
 	putchar('\n');
 
