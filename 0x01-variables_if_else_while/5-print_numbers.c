@@ -8,20 +8,15 @@
  */
 int main(void)
 {
+
 	char n;
 
-	for (n = 97; n <= 122; n++)
-	{
-		if (n == 101 || n == 113)
+		for (n = '0'; n <= '9'; n++)
 		{
+			putchar(n);
+		}
 
-		}
-		else
-		{
-			putchar(n)
-		}
-	}
-	putchar('\n');
+		putchar('\n');
 
 	return (0);
 }
