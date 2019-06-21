@@ -1,4 +1,4 @@
-q#include <stdio.h>
+#include <stdio.h>
 /**
  * main - Entry Point
  *
@@ -6,11 +6,16 @@ q#include <stdio.h>
  */
 int main(void)
 {
-	char n;
+	char n, m;
 
 	for (n = 97; n <= 122; n++)
 	{
 		putchar(n);
+	}
+
+	for (m = 65; m <= 90; m++)
+	{
+		putchar(m);
 	}
 	putchar('\n');
 
