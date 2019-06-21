@@ -6,18 +6,16 @@
  */
 int main(void)
 {
-	float n;
-	char m;
+	char n;
 
-	for (n = '0'; n <= '9'; n++)
+	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
+
+	putchar(',');
+	putchar(' ');
 	}
 
-	for (m = 61; m <= 66; m++)
-	{
-		putchar(m);
-	}
 	putchar('\n');
 
 	return (0);
