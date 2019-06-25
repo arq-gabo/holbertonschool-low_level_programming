@@ -1,27 +1,26 @@
 #include "holberton.h"
 
-
 /**
- * main - check the code for Holberton School students.
+ * print_last_digit - Function that prints the last digit
  *
- * Return: Always 0.
+ * @a: The number to be checked
+ *
+ * Return: Last digit of the number
  */
-
 int print_last_digit(int a)
 {
-
-	int b;
+	int n;
 
 	if (a > 0)
 	{
-		b = (a % 10) + '0';
-		_putchar(b);
+		n = (a % 10) + '0';
+		_putchar(n);
 	}
 	else
 	{
-		b = ((a % 10) * -1) + '0';
-		_putchar(b);
+		n = ((a % 10) * -1) + '0';
+		_putchar(n);
 	}
-	return (a);
 
+	return (n - '0');
 }
