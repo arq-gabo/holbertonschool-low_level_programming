@@ -8,17 +8,17 @@
 int _islower(int c)
 {
 
-  int m;
+	int m;
 
-  if(c >= 'a' && c <= 'z')
-    {
-      m = 1;
-    }
-  else
-    {
-      m = 0;
-    }
+	if (c >= 'a' && c <= 'z')
+	{
+		m = 1;
+	}
+	else
+	{
+		m = 0;
+	}
 
-  return (m);
+	return (m);
 
 }

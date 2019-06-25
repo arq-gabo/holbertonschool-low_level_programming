@@ -11,21 +11,21 @@ void print_alphabet_x10(void)
 {
 
 
-  int m, n;
-  n = 1;
+	int m, n;
 
-  while( n <= 10 )
-    {
+	n = 1;
 
-  for( m = 'a' ; m <= 'z' ; m++)
-    {
-      _putchar(m);
-    }
+	while (n <= 10)
+		{
 
-  n++;
-  _putchar(10);
+		for (m = 'a' ; m <= 'z' ; m++)
+		{
+			_putchar(m);
+		}
 
-    }
+		n++;
+		_putchar(10);
 
+	}
 
 }
