@@ -7,8 +7,8 @@
  *
  * Return: absolute value
  */
-
 int _abs(int m)
+
 {
 	if (m < 0)
 	{
