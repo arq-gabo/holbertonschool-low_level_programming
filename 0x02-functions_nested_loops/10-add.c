@@ -1,4 +1,4 @@
-#incluide "holberton.h"
+#include "holberton.h"
 
 /**
  * add - Function that adds two integers and return the result
@@ -8,7 +8,7 @@
  *
  * Return: The sum of the two parameters
  */
-int add(int a + int b)
+int add(int a, int b)
 {
 
 	return (a + b);
