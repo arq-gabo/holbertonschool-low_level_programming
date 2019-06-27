@@ -21,11 +21,8 @@ void more_numbers(void)
 				c = ((b % 10) + '0');
 				_putchar(b / 10 + '0');
 			}
-			
 			_putchar(c);
 		}
 		_putchar(10);
-
 	}
-
 }
