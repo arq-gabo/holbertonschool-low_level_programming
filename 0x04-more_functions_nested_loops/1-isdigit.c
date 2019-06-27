@@ -8,15 +8,14 @@
 */
 int _isdigit(int c)
 {
-	int m;
 
 	if ((c >= 'a' && c <= 'a') || (c >= 'A' && c <= 'Z'))
 	{
-		m = 0;
+		return (1);
 	}
 	else
 	{
-		m = 1;
+		return (0);
 	}
-	return (m);
+
 }
