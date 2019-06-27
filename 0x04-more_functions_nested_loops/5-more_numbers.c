@@ -14,7 +14,7 @@ void more_numbers(void)
 		{
 			if (b >= 0 && b <= 9)
 			{
-				c = ( b + '0');
+				c = (b + '0');
 			}
 			else
 			{
