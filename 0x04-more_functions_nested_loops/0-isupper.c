@@ -12,11 +12,11 @@ int _isupper(int c)
 
 	int m;
 
-	if (c >= 'a' && c <= 'a')
+	if (c >= 'A' && c <= 'Z')
 
 	{
 
-		m = 0;
+		m = 1;
 
 	}
 
@@ -24,7 +24,7 @@ int _isupper(int c)
 
 	{
 
-		m = 1;
+		m = 0;
 
 	}
 
