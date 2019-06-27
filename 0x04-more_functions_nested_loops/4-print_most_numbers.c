@@ -1,9 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_most_numbers - Prints from 0 to 9, but not print 2 and 4
  */
 void print_most_numbers(void)
 {
