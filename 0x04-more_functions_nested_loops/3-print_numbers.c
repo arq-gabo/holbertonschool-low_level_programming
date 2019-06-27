@@ -1,9 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_numbers - Function that the numbers from 0 to 9
  */
 void print_numbers(void)
 {
