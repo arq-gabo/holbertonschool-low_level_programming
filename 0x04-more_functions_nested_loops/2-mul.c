@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * mul - Function that multiplies two integers
+ * @a: Number to be multiply
+ * @b: Number to be multiply
+ * Return: arithmetic operation
  */
 int mul(int a, int b)
 {
