@@ -1,16 +1,10 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * The function that updates the value of a parameter
- *
- * Return: Value that update
+ * reset_to_98 - Function that takes a pointer and updates the value
+ * @n: Value that update
  */
-
 void reset_to_98(int *n)
-
 {
-
 	*n = 98;
-
 }
