@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *@a:first pinter variable
- *@b:second pointer variable
- * Return: Always 0.
+ * swap_int - Function that swaps the value of two integers
+ * @a: Value to be swap
+ * @b: Value to be swap
  */
-
 void swap_int(int *a, int *b)
-
 {
 
-	int c;
+	int tmp;
 
-	c = *b;
+	tmp = *b;
 	*b = *a;
-	*a = c;
+	*a = tmp;
 
 }
