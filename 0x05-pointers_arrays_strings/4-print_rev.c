@@ -1,29 +1,28 @@
 #include "holberton.h"
 
 /**
- * trying to print a letter sequence upside down
+ * print_rev - Function that prints a string in reverse
  *
  * Return: Always 0.
  */
-void print_rev(char *str)
+
+void print_rev(char *s)
+
 {
 
-	char *z = str;
-	int i;
-	int count = 0;
+	int len = 0;
 
-	while (*str != '\0')
+	while (1)
 	{
-		str++;
-		count++;
+		if (*(s + len) == '\0')
+			break;
+		len++;
 	}
 
-	i = count - 1;
-	while (i >= 0)
+	while (len > 0)
 	{
-		_putchar(*(z + i));
-		i--;
+		len--;
+		_putchar(*(s + len));
 	}
-	_putchar('\n');
-
+	_putchar(10);
 }
