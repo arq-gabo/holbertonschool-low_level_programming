@@ -6,17 +6,15 @@
  *
  * Return: Always 0.
  */
-
-int main(void)
+int _strlen(char *s)
 
 {
+	int len = 0;
 
-	char *str;
-	int len;
-
-	str = "Holberton!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (0);
-
+	while (*s != '\0')
+	{
+		s++;
+		len++;
+	}
+	return (len);
 }
