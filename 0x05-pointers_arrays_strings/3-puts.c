@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * strlen - calculate the length of a string
+ * 'str' − This is the C string to be written
+ * _puts writes a string to stdout up to but not including the null character.
  * Return: Always 0.
  */
 

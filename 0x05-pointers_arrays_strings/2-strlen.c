@@ -1,11 +1,11 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * Function calculates the length of the string
- *
+ * _strlen - check the code for Holberton School students.
+ *@s:do something
  * Return: Always 0.
  */
+
 int _strlen(char *s)
 
 {
