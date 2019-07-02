@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	int len = 0;
 
-	while (1)
+	while (len > 0)
 	{
 		if (*(s + len) == '\0')
 			break;
@@ -24,5 +24,7 @@ void print_rev(char *s)
 		len--;
 		_putchar(*(s + len));
 	}
+
 	_putchar(10);
+
 }

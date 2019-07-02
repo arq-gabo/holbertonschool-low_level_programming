@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- * strlen - calculate the length of a string
- * 'str' − This is the C string to be written
- * _puts writes a string to stdout up to but not including the null character.
+ * _puts - writes a string to stdout up, not including the null character
+ * @str: This is the C string to be written
  * Return: Always 0.
  */
 
