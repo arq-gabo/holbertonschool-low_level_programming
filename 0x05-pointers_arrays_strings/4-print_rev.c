@@ -3,7 +3,7 @@
 /**
  * print_rev - Function that prints a string in reverse
  *
- * Return: Always 0.
+ * @s: String to be printed
  */
 
 void print_rev(char *s)
