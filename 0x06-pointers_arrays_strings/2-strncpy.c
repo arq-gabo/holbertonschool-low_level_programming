@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 	int a = 0;
 
@@ -18,8 +18,8 @@ char *_strncpy(char *dest, char *src, int n);
 	}
 	while (a < n)
 	{
-		dist[a] = '\0';
-		a++
+		dest[a] = '\0';
+		a++;
 	}
 	return (dest);
 }
