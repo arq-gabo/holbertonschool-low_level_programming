@@ -7,9 +7,9 @@
 char *leet(char *s)
 {
 
-	char arr1[6] = {"AEOTL"};
-	char arr2[6] = {"aeotl"};
-	char arr3[6] = {"43071"};
+	char arr1[6] = {'AEOTL'};
+	char arr2[6] = {'aeotl'};
+	char arr3[6] = {'43071'};
 
 	int a = 0;
 	int b;
