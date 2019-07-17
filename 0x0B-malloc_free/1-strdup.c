@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * _strdup - returns a pointer to a newly allocated space in memory
- * @str: string source
- * Return: Always 0
+ * _strdup - Function that returns a pointer to a newly allocated space in mem
+ * @str: Literal String
+ * Return: Return a pointer or return NULL if inneficient memory or str is NULL
  */
 
 char *_strdup(char *str)
