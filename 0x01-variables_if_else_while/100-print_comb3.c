@@ -7,11 +7,10 @@
 int main(void)
 {
 
-	int n = 48, m;
+	int n = 48, m = 48;
 
 	while (n <= 57)
 	{
-		m = 48;
 		while (m <= 57)
 		{
 			if (m > n && m != n)
