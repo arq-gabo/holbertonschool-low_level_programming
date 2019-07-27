@@ -1,38 +1,30 @@
 #include <stdio.h>
 /**
- * main - Entry Point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
+	int n, d;
 
-	int n = 48, m = 48;
-
-	while (n <= 57)
+	for (n = 48; n <= 57; n++)
 	{
-		while (m <= 57)
+		for (d = 48; d <= 57; d++)
 		{
-			if (m > n && m != n)
+			if (n < d)
 			{
-				putchar(n);
-				putchar(m);
-
-				if (n != 8 || m != 9)
+				putchar (n);
+				putchar (d);
+				if (n != 56 || d != 57)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar (44);
+					putchar (' ');
 				}
-
 			}
-			m++;
+
 		}
-		n++;
 	}
-
-
-
-	putchar(10);
-
+	putchar('\n');
 	return (0);
 }
