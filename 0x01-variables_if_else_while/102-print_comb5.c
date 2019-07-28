@@ -1,11 +1,17 @@
 #include <stdio.h>
 
+/**
+ * main - Entry Point
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 
 	int a, b, c, d;
 
-	for(a = 48 ; a <= 57 ; a++)
+	for (a = 48 ; a <= 57 ; a++)
 	{
 		for (b = 48 ; b <= 57 ; b++)
 		{
@@ -13,16 +19,23 @@ int main(void)
 			{
 				for (d = 48 ; d <= 57 ; d++)
 				{
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					putchar(',');
-					putchar(' ');
+					if (a <= c && b <= d && a + b != c + d)
+					{
+						putchar(a);
+						putchar(b);
+						putchar(32);
+						putchar(c);
+						putchar(d);
+						if (a != 57 || b != 56 || c != 57 || c != 57)
+						{
+							putchar(44);
+							putchar(32);
+						}
+					}
 				}
 			}
 		}
 	}
-	return(0);
+	putchar('\n');
+	return (0);
 }
