@@ -14,7 +14,7 @@
 
 ## Main function 
 
-# int printf(const char * format,...)
+### int printf(const char * format,...)
 
 ## Current Conversion Specifiers
 | Specifier | Description |
