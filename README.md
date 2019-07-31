@@ -1,18 +1,18 @@
 ![Coggle Diagram of Functions](https://www.holbertonschool.com/holberton-logo.png)
 
-##_printf
+## _printf
 
-#Our first project as software development students at holberton school
+# Our first project as software development students at holberton school
 
-##Synopsis
+## Synopsis
 
-#Header used
-"holberton.h"
-<stdlib.h>
-<stdio.h>
-<stdarg.h>
+# Header used
+# "holberton.h"
+# <stdlib.h>
+# <stdio.h>
+# <stdarg.h>
 
-#main function 
+# main function 
 int printf(const char * format,...=
 
 ## Current Conversion Specifiers
@@ -50,5 +50,5 @@ int printf(const char * format,...=
 * **int print_dec(va_list var);**
 >
 
-* **int (*get_op_func(char s))(va_list var);**
+* **int (get_op_func(char s))(va_list var);**
 >
