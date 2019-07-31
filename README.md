@@ -25,14 +25,6 @@
 | %d | writes the decimal form a signed integer |
 | %i | writes the decimal form a signed integer |
 | %u | writes the decimal form of an unsigned integer |
-| %b | writes the binary form of an unsigned integer |
-| %o | writes the octal form of an unsigned integer |
-| %x | writes the hexadecimal form of an unsigned integer (using conversion letters: abcdef) |
-| %X | writes the hexadecimal form of an unsigned integer (using conversion letters: ABCDEF) |
-| %r | writes a character string in reverse order |
-| %R | encodes a character string in rot13 format |
-| %p | writes the character sequence defining a pointer |
-| %S | writes non-printable characters in the format "\x(ASCII Code Value in UPPERCASE Hexadecimal)" |
 
 ## Functions
 
