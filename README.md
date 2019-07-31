@@ -37,19 +37,19 @@
 ## Functions
 
 * **int _putchar(char c);**
->
+> Writes the character c to stdout
 
 * **int print_int(va_list var);**
->
+> Is a function write an integers and decimals
 
 * **int print_char(va_list var);**
->
+> Is a function write just an character
 
 * **int print_string(va_list var);**
->
+> Is a function write a string
 
 * **int print_dec(va_list var);**
->
+> Is a function write the decimal form
 
 * **int (get_op_func(char s))(va_list var);**
->
+> It is a function that the structure data is equal to the arguments
