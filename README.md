@@ -6,14 +6,14 @@
 
 ## Synopsis
 
-# Header used
-# "holberton.h"
-# <stdlib.h>
-# <stdio.h>
-# <stdarg.h>
+* Header used
+* "holberton.h"
+* <stdlib.h>
+* <stdio.h>
+* <stdarg.h>
 
 # main function 
-int printf(const char * format,...=
+int printf(const char * format,...)
 
 ## Current Conversion Specifiers
 | Specifier | Description |
