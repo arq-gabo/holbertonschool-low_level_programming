@@ -1,6 +1,6 @@
 ![Coggle Diagram of Functions](https://www.holbertonschool.com/holberton-logo.png)
 
-# _printf
+# Project _printf();
 
 ## Our first project as software development students at holberton school
 
@@ -12,7 +12,8 @@
 * <stdio.h>
 * <stdarg.h>
 
-## main function 
+## Main function 
+
 # int printf(const char * format,...)
 
 ## Current Conversion Specifiers
