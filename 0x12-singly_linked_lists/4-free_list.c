@@ -1,21 +1,21 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
-
 /**
- * free_list -  free the malloc.
- *@head: is the beginning of the list.
- *
- * Return: The numbers of nodes.
+ * free_list - check the code.
+ *@head: data of a list
+ * Return: nothing.
  */
-
 void free_list(list_t *head)
 {
-	list_t *temp;
+	list_t *cleaner;
 
-	while (head != NULL)
+	while (head)
 	{
-		temp = head->next;
-		free(head->str);
-		free(head);
-		head = temp;
+		cleaner = head;
+		free(cleaner->str);
+		free(cleaner);
+		head = cleaner->next;
 	}
 }
