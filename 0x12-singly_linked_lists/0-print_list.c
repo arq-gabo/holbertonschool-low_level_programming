@@ -1,29 +1,27 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "lists.h"
-
 /**
- *print_list - print all elements of a list_t list
- * @h: list linked
- * Return: number of nodes
- * if str is NULL print [0] (nil)
- * You are allowed to use printf
+ *print_list - print list from structure
+ *@h: data in structure
+ *Return: leng of list
  */
-
-
-
 size_t print_list(const list_t *h)
 {
 
-	int n = 0;
+	const  list_t *nodo;
+	size_t cont;
 
-	while (h)
+	nodo = h;
+	for (cont = 0; nodo != NULL; cont++)
 	{
-		if (h->str == NULL)
-			printf("[%d] %s\n", 0, "(nil)");
+		if (!nodo->str)
+		{
+			printf("[0] (nil)\n");
+		}
 		else
-			printf("[%d] %s\n", h->len, h->str);
-		h = h->next;
-		n++;
+			printf("[%d] %s\n", nodo->len, nodo->str);
+		nodo = nodo->next;
 	}
-	return (n);
-
+	return (cont);
 }
