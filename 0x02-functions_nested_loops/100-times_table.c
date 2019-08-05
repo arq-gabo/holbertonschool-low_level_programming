@@ -1,8 +1,10 @@
 #include "holberton.h"
+
 /**
  * print_times_table - print times tables from zero to n
  * @n: time
  */
+
 void print_times_table(int n)
 {
 	int b, p;
@@ -17,7 +19,6 @@ void print_times_table(int n)
 			while (b <= n)
 			{
 				p = a * b;
-
 				_putchar(',');
 				_putchar(' ');
 				if (p < 10)
