@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 
 	long int a = 1, b = 2, c, count;
@@ -26,7 +26,7 @@ int main (void)
 		{
 			printf("%li", c);
 		}
-			
+
 	}
 	printf("\n");
 	return (0);
