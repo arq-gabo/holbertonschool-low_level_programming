@@ -1,21 +1,24 @@
 #include "lists.h"
 
 /**
- * free_listint -  free the malloc.
- *@head: is the beginning of the list.
+ * free_listint - frees a list
  *
- * Return: The numbers of nodes.
+ * @head: list pointer
  */
 
 void free_listint(listint_t *head)
+
 {
+	listint_t *current;
 
-	listint_t *tmp;
-
-	if (head != head)
+	while (head != NULL)
 	{
-		tmp = head->next;
-		free(head);
-		head = tmp;
+
+		current = head;
+
+		head = current->next;
+
+		free(current);
+
 	}
 }
