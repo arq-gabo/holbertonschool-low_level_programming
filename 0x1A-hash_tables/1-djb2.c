@@ -1,8 +1,7 @@
 /**
- *
- *
- *
- *
+ * hash_djb2 - hash table creator whit funcion djb2 algorithm
+ * @str: value to be hasned
+ * Return: randon hash value
  */
 
 unsigned long int hash_djb2(const unsigned char *str)
