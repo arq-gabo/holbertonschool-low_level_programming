@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
- *
+ * hash_table_create - function for create hash table
+ * @size: size of hash table
+ * Return: returns the creation of the hash table
  */
 
 hash_table_t *hash_table_create(unsigned long int size)
@@ -23,7 +22,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		return (NULL);
 	}
-     
+
 	ht->size = size;
 	ht->array = calloc(size, sizeof(hash_table_t *));
 	if (ht->array == NULL)
@@ -31,5 +30,5 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(ht);
 		return (NULL);
 	}
-	return(ht);
+	return (ht);
 }
