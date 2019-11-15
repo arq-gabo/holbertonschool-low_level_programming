@@ -4,6 +4,7 @@ OBJ = main.o holberton.o
 NAME = holberton
 
 all: $(NAME)
-
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
+	@rm holberton
+#$(OBJ): $(SRC) m.h
