@@ -17,8 +17,4 @@ def island_perimeter(grid):
                     i += 1
                 if grid[line + 1][col] is 0 or line is len(grid[line]) - 1:
                     i += 1
-                else:
-                    pass
-            else:
-                pass
     return i
