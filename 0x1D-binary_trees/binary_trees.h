@@ -52,4 +52,7 @@ void binary_tree_delete(binary_tree_t *tree);
 /*Function prototype task_04*/
 int binary_tree_is_leaf(const binary_tree_t *node);
 
+/*Function prototype task_05*/
+int binary_tree_is_root(const binary_tree_t *node);
+
 #endif /*_BINARY_TREES_H_*/
