@@ -34,28 +34,15 @@ typedef struct binary_tree_s avl_t;
 /*Max Binary Heap*/
 typedef struct binary_tree_s heap_t;
 
-/*Function for visualization*/
 void binary_tree_print(const binary_tree_t *);
 
-/*Function prototype task 00*/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
-
-/*Function prototype task 01*/
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
-
-/*Function prototype task_02*/
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
-
-/*Function prototype task_03*/
 void binary_tree_delete(binary_tree_t *tree);
-
-/*Function prototype task_04*/
 int binary_tree_is_leaf(const binary_tree_t *node);
-
-/*Function prototype task_05*/
 int binary_tree_is_root(const binary_tree_t *node);
-
-/*Function prototype task_06*/
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 
 #endif /*_BINARY_TREES_H_*/
