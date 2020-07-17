@@ -1,8 +1,7 @@
 ## Low-level programing & Algorithm
 
 This is repository of C programming language
-[
-![enter image description here](https://lh3.googleusercontent.com/VTMD5S_qt7TvEmdg_C2IkEMDdVmKlBSLRKfE7qozsM0nvPdIpn58CGEaKaAbbWQIAVOFgbJNl5k "readme")](https://github.com/marcewp15/holbertonschool-low_level_programming#)
+
 
 --------------------------------------------
 ## Description
